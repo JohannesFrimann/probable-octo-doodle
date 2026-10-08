@@ -5,7 +5,7 @@ name: Update station feed
 
 on:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "0 8 * * *"
   workflow_dispatch:
 
 permissions:
